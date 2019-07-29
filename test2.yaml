@@ -5,9 +5,6 @@
   - name: my test playbook
     ping: 
     
-  - name: my ping thru playbook
-    ping:
-
   - name: abcd
     apt: 
       name: tree
