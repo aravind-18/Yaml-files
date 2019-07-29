@@ -1,0 +1,11 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+  - name: Aravind test playbook
+    ping: 
+    
+  - name: Aravind test playbook
+    apt: 
+      name: tree
+      state: present
